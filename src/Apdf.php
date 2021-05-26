@@ -5,7 +5,7 @@ namespace Vatttan\Apdf;
 
 use Vatttan\Apdf\Pdf\TCPDF;
 
-class Apdf
+class Apdf extends TCPDF
 {
     public function print($text)
     {
