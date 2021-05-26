@@ -1,0 +1,24 @@
+{
+    "name": "vatttan/apdf",
+    "description": "Make export as a pdf in Laravel with supporting for utf charcters like farsi letters",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akbar Dizaji",
+            "email": "vatantech724@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vatttan\\Apdf\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vatttan\\Apdf\\ApdfServiceProvider"
+            ]
+        }
+    }
+}
